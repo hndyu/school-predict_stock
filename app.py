@@ -82,7 +82,7 @@ try:
             st.write("信頼度：中")
         else:
             st.write("信頼度：低")
-        st.write("オレンジの線(Predict)が予測値です。")
+        st.write("水色の線(Predict)が予測値です。")
 
         predict_data = model.predict(predict_data)
         df_stock["Predict"] = np.nan
